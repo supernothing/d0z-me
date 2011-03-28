@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteRule ^([a-zA-Z0-9]+)$ /redir.php?hash=$1
+

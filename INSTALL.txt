@@ -1,0 +1,22 @@
+INSTALLATION
+=========================
+To install, first copy all the contents of the dosme folder (including
+the .htaccess file) into the directory you wish to serve out of.
+
+If you don't want to clobber your existing htaccess file, then append
+the changes to it.
+
+Now, edit the config.php to reflect the URL users need to use to use
+your shortener, and set the WARNUSERS flag to what you want.
+
+Then, copy the db_config.php file to a directory above and enter
+all your information appropriately.
+
+Finally, just run the following in a shell:
+
+mysql db_name < dos_links.sql
+
+Make sure you replace your db info as needed before you run it.
+
+Now everything should be up and running! If you have problems, feel
+free to contact me at supernothing AT spareclockcycles D0T org .

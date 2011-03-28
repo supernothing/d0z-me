@@ -41,7 +41,10 @@ function makeRequest()
     var fullUrl = makeURL();
     var httpRequest = new XMLHttpRequest();
     httpRequest.open("POST", fullUrl, true);
+   
+    //needed to force Webkit browsers to skip preflight request
     httpRequest.setRequestHeader("Content-Type","text/plain; charset=utf-8");
+
     httpRequest.onreadystatechange = infoReceived;
     httpRequest.onerror = err;
     httpRequest.send(post_data);

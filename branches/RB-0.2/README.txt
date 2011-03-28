@@ -7,17 +7,17 @@ background that tries to DDoS a target site.
 
 RELEASE NOTES
 =========================
-This is alpha software. No, seriously. I'm not talking Google's "oh, this might
+This is still alpha software. No, seriously. I'm not talking Google's "oh, this might
 break once or twice if you use it for years." No, I mean seriously alpha, as in
-the bugs you will encounter will make you start screaming "WTF, is this man the
-worst coder to have ever wasted space on the Earth?" Yes, that bad. Hopefully,
-with your bug reports and some more of my time, it will get more stable. But
-until then, you have been warned.
+the bugs you will encounter will probably make you hate me with a passion that burns...
+like wood...on fire. If it somehow rm -rf / 's your system, I am not responsible.
+Hopefully, with your bug reports and some more of my time, it will get more stable.
+Until then, you have been warned.
 
 DEPENDENCIES
 ========================
 MySQL
-PHP
+PHP w/ mod_rewrite
 A Brain
 
 TODO
@@ -33,7 +33,8 @@ KNOWN BUGS
 
 FOUND BUGS? GOT PATCHES?
 ========================
-Send them to me at supernothing AT spareclockcycles DOT org.
+Send them to me at supernothing AT spareclockcycles DOT org, or report them
+at the Google Code repository: http://code.google.com/p/d0z-me/issues/list
 
 LICENSE
 ========================

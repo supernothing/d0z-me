@@ -1,0 +1,21 @@
+body{
+font-family:monospace;
+width:50%;
+}
+label
+{
+width: 4em;
+float: left;
+text-align: right;
+margin-right: 0.5em;
+display: block;
+}
+.submit
+{
+font-family:monospace;
+margin-left: 4.5em;
+}
+.footer
+{
+    font-size:8pt;
+}

@@ -18,3 +18,14 @@ CREATE TABLE IF NOT EXISTS `dos_links` (
   `use_get` tinyint(1) NOT NULL default '0',
   UNIQUE KEY `hash` (`hash`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Table structure for table `banned`
+--
+
+CREATE TABLE IF NOT EXISTS `banned` (
+  `id` int(11) NOT NULL auto_increment,
+  `domain` varchar(256) NOT NULL,
+  PRIMARY KEY  (`id`),
+  UNIQUE KEY `domain` (`domain`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=8 ;

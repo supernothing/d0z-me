@@ -1,0 +1,4 @@
+<br/><br/><p style="font-size:8pt;">Disclaimer: I am not responsible for any malicious use of this demonstration, nor any damages caused by it. It was created solely as an example of the serious consequences of the Internet's increased reliance upon URL shortners, as well as how easy it is to create an unwitting DDoS botnet without actually exploiting a single computer. If you target a site that is not yours, you are responsible for the consequences. If you believe that you have been a victim of abuse due to the actions of this site's users, please contact me at supernothing 4T spareclockcycles D0T org with the offending link so I can investigate.</p>
+<br/><p style="font-size:8pt;">All code used on this site is released under the GPLv3, and is available <a href="http://spareclockcycles.org/downloads/code/dosme.tar.gz">here</a>.
+</body>
+</html>

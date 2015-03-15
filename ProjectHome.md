@@ -1,0 +1,1 @@
+This project demonstrates the serious consequences of the Internet's increased reliance upon URL shortners, as well as how easy it is to create an unwitting DDoS botnet using new HTML5 features without actually exploiting a single computer. It is intended only for demonstration and testing purposes; if you target a site that is not yours, you are responsible for the consequences.
